@@ -1,0 +1,122 @@
+* {
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1{ 
+	font-size: 4em;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: oblique;
+	color: #000000;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+h2{ 
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: oblique;
+	color: #000000;
+	font-size: 2em
+}
+
+p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic;
+	color: #000000;
+	clear: right;
+	text-align: justify;
+	padding:10px; 
+
+}
+
+.section-left {
+	width: 30%;
+	background: red;
+	border: 1px solid black;
+	float: left;
+	margin-left: 30px;
+}
+.section-center {
+	width: 30%;
+	background: white;
+	border: 1px solid black;
+	float: left;
+	margin-left: 30px;
+	margin-right:25px;
+}
+.section-right {
+	width: 30%;
+	background: green;
+	border: 1px solid black;
+	float: left;
+}
+.section-title-left {
+	background: white;
+	width: 200px;
+	border: 1px solid black;
+	float: right;
+	position: relative;
+}
+.section-title-center {
+	background: white;
+	width: 200px;
+	border: 1px solid black;
+	float: right;
+	position: relative;
+}
+.section-title-right {
+	background: white;
+	width: 200px;
+	border: 1px solid black;
+	float: right;
+	position: relative;
+}
+
+/********** tablet view **********/
+@media (min-width: 769px) and (max-width: 992px) {
+	.section-left .section-center .section-right {
+	float: left;
+	}	
+
+	.section-left { 
+		width: 41%;
+	}
+	.section-center { 
+		width: 41%;
+	}
+	.section-right { 
+		width: 86%;
+		clear: left;
+		margin-top: 25px;
+		margin-left: 30px;
+	}
+
+}
+/********** mobile view **********/
+@media (max-width: 768px) {
+
+	.section-left { 
+		width: 86%;
+		margin-top: 15px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		margin-left: 40px;
+	}
+	.section-center { 
+		width: 86%;
+		margin-top: 15px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		margin-left: 40px;
+	}
+	.section-right { 
+		width: 86%;
+		margin-top: 15px;
+		margin-right: 15px;
+		margin-bottom: 40px;
+		margin-left: 40px;
+	}
+
+}
