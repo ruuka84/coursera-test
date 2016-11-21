@@ -9,7 +9,6 @@ h1{
 	text-align: center;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-style: oblique;
-	color: #000000;
 	margin-top: 70px;
 	margin-bottom: 100px;
 }
@@ -18,7 +17,7 @@ h2{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-style: oblique;
 	color: #000000;
-	font-size: 2em
+	font-size: 2em;
 }
 
 p{
@@ -53,21 +52,21 @@ p{
 	float: left;
 }
 .section-title-left {
-	background: white;
+	background: #DCDCDC;
 	width: 200px;
 	border: 1px solid black;
 	float: right;
 	position: relative;
 }
 .section-title-center {
-	background: white;
+	background: #DC143C;
 	width: 200px;
 	border: 1px solid black;
 	float: right;
 	position: relative;
 }
 .section-title-right {
-	background: white;
+	background: #90EE90;
 	width: 200px;
 	border: 1px solid black;
 	float: right;
