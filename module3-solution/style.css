@@ -76,12 +76,14 @@ color: #000;
 	border: 0;
 	padding-bottom: 1.5em;
  }
+ }
  /*****Small devices only *****/
 @media (min-width: 768px) and (max-width: 991px) {
  	#header-nav {
 	border-radius: 0;
 	border: 0;
 	padding-bottom: 1.5em;
+ }
  }
  /*****Extra Small devices only *****/
 @media (max-width: 767px) {
@@ -93,4 +95,5 @@ color: #000;
  .navbar-brand h1 {
 	padding-top: 0px;
 	margin-top: 0px;
+ }
  }
