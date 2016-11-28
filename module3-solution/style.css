@@ -5,7 +5,7 @@ body {
 
  /**header**/
  #header-nav {
-	background-color: #B8860B;
+	background-color: #DEB887;
 	border-radius: 0;
 	border: 0;
 	padding-bottom: 1.5em;
@@ -14,7 +14,7 @@ body {
 	padding-top: 10px;
 }
 .navbar-brand h1 {
-	color: #8B008B;
+	color: #DC143C;
 	padding-top: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -27,7 +27,7 @@ body {
 }
 #nav-list a {
 	text-align: center;
-	color: #8B008B;
+	color: #DC143C;
 	border-bottom: 1px solid #fff;
 }		
 #nav-list a:hover {
@@ -49,25 +49,22 @@ margin: 5px;
 padding: 10px;
  }
  h2 {
-color: #8B008B;
+color: #DC143C;
 text-shadow: 0.5px 0.5px 0.5px #222;
 font-size: 3.5em;
  }
  #chicken {
 font-size: 1.5em;
-color: #F0F8FF;
-text-shadow: 0.5px 0.5px 0.5px #222;
+color: #000;
  }
  section {
- background: #FFA07A;
- color: #F0F8FF;
- text-shadow: 0.5px 0.5px 0.5px #222;
+ background: #DEB887;
+ color: #000;
  }
  /**finish-home-page**/
  /*****Large devices only*****/
 @media (min-width: 1200px){
  #header-nav {
-	background-color: #B8860B;
 	border-radius: 0;
 	border: 0;
 	padding-bottom: 1.5em; }
@@ -75,7 +72,6 @@ text-shadow: 0.5px 0.5px 0.5px #222;
  /*****Medium devices only *****/
 @media (min-width: 768px) and (max-width: 991px) {
  #header-nav {
-	background-color: #B8860B;
 	border-radius: 0;
 	border: 0;
 	padding-bottom: 1.5em;
@@ -83,7 +79,6 @@ text-shadow: 0.5px 0.5px 0.5px #222;
  /*****Small devices only *****/
 @media (min-width: 768px) and (max-width: 991px) {
  	#header-nav {
-	background-color: #B8860B;
 	border-radius: 0;
 	border: 0;
 	padding-bottom: 1.5em;
@@ -91,7 +86,6 @@ text-shadow: 0.5px 0.5px 0.5px #222;
  /*****Extra Small devices only *****/
 @media (max-width: 767px) {
  	#header-nav {
-	background-color: #B8860B;
 	border-radius: 0;
 	border: 0;
 	padding-bottom: 1.5em;
@@ -99,4 +93,4 @@ text-shadow: 0.5px 0.5px 0.5px #222;
  .navbar-brand h1 {
 	padding-top: 0px;
 	margin-top: 0px;
-}
+ }
